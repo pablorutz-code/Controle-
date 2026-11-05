@@ -1,0 +1,26 @@
+CONTROLE DE EMPRESAS CLIENTES
+
+Arquivos desta pasta:
+- index.html     : o sistema (é este arquivo que vai para o GitHub)
+- apps-script.gs : codigo para colar no Apps Script da planilha do Google
+- LEIAME.txt     : este guia
+
+ANTES DE SUBIR NO GITHUB
+1) Crie a planilha no Google Planilhas > Extensoes > Apps Script.
+2) Cole o conteudo de apps-script.gs e troque TROQUE_ESTA_SENHA pela sua senha.
+3) Implantar > Nova implantacao > Aplicativo da Web
+   Executar como: Eu | Quem pode acessar: Qualquer pessoa.
+4) Copie o endereco que termina em /exec.
+5) Abra index.html no Bloco de Notas, procure COLE_AQUI_O_ENDERECO_DO_SCRIPT
+   e troque pelo endereco copiado, mantendo as aspas. Salve.
+
+SUBIR NO GITHUB
+1) Crie um repositorio Public (ex.: controle-clientes).
+2) Use "uploading an existing file" e envie SOMENTE o index.html.
+   (Nao envie apps-script.gs nem anote a senha em nenhum arquivo.)
+3) Settings > Pages > Deploy from a branch > main > / (root) > Save.
+4) Aguarde 1 a 2 minutos. O endereco do sistema aparece na pagina Pages.
+
+PRIMEIRO ACESSO
+Cada colega informa a senha e o proprio nome (usado no historico de alteracoes).
+No topo deve aparecer "Cadastro compartilhado - salvo automaticamente".
